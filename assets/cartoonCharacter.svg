@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" width="200" height="250">
+  <!-- Head -->
+  <circle cx="100" cy="50" r="40" fill="#00ffaa" />
+  
+  <!-- Body -->
+  <rect x="70" y="90" width="60" height="100" rx="30" ry="30" fill="#00ffaa" />
+  
+  <!-- Left Eye -->
+  <circle cx="85" cy="40" r="8" fill="#1a1a1a" />
+  
+  <!-- Right Eye -->
+  <circle cx="115" cy="40" r="8" fill="#1a1a1a" />
+  
+  <!-- Smile -->
+  <path d="M85,60 Q100,75 115,60" fill="none" stroke="#1a1a1a" stroke-width="4" />
+  
+  <!-- Left Arm -->
+  <rect x="35" y="100" width="35" height="20" rx="10" ry="10" transform="rotate(-30 35 100)" fill="#00ffaa" />
+  
+  <!-- Right Arm -->
+  <rect x="130" y="100" width="35" height="20" rx="10" ry="10" transform="rotate(30 130 100)" fill="#00ffaa" />
+  
+  <!-- Animation elements -->
+  <animate attributeName="transform" attributeType="XML" 
+    type="translate" 
+    values="0,0; 0,-10; 0,0"
+    dur="3s" 
+    repeatCount="indefinite" />
+</svg>
