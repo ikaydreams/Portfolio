@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize the preloader
-    setTimeout(() => {
-        document.querySelector('.preloader').classList.add('hidden');
-        
-        // Ensure we're at the top of the page after preloader disappears
-        window.scrollTo(0, 0);
+   
         
         // Make sure home section is visible first and nav is properly set
         document.querySelectorAll('.nav-menu a').forEach(link => {
